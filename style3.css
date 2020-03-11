@@ -14,6 +14,21 @@
   src: url('font/Raleway Thin.ttf') format('truetype');
 }
 
+body {
+    animation: fadeIn 2s ease 0s 1 normal;
+    -webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
 a{
   color: black;
 }
@@ -76,7 +91,7 @@ vertical-align: bottom;
   font-family: 'Raleway-thin';
   font-size: 20px;
   padding-top: 3em;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
 
 }
 
@@ -84,7 +99,19 @@ vertical-align: bottom;
   font-family: 'Raleway-thin';
   font-size: 30px;
 }
+
+.content_back{
+  font-family: 'Raleway-thin';
+  font-size:  35px;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
 .content a{
+  text-decoration: none;
+}
+
+.content_back a{
   text-decoration: none;
 }
 
@@ -121,6 +148,18 @@ vertical-align: bottom;
 
 
 .content_me.delighter.started {
+  transform: none;
+  opacity: 1;
+}
+
+.content_back.delighter {
+  transition: all 1.0s ease-out;
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+
+.content_back.delighter.started {
   transform: none;
   opacity: 1;
 }
