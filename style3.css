@@ -9,6 +9,11 @@
   src: url('font/GeosansLight.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Raleway-thin';
+  src: url('font/Raleway Thin.ttf') format('truetype');
+}
+
 a{
   color: black;
 }
@@ -61,14 +66,14 @@ vertical-align: bottom;
 }
 
 .content_ig{
-  font-family: 'GeosansLight';
+  font-family: 'Raleway-thin';
   font-size: 33px;
   margin-top: 5em;
   margin-bottom: 1em;
 }
 
 .content_me{
-  font-family: 'GeosansLight';
+  font-family: 'Raleway-thin';
   font-size: 20px;
   padding-top: 3em;
   padding-bottom: 1em;
@@ -76,7 +81,7 @@ vertical-align: bottom;
 }
 
 .content{
-  font-family: 'GeosansLight';
+  font-family: 'Raleway-thin';
   font-size: 30px;
 }
 .content a{
