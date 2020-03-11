@@ -1,0 +1,121 @@
+.sitetitle{
+  padding-top: 4em;
+  padding-bottom: 3em;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'GeosansLight';
+  src: url('font/GeosansLight.ttf') format('truetype');
+}
+
+a{
+  color: black;
+}
+.pic img{
+width: 700px;
+height: auto;
+padding-bottom: 1em;
+opacity: 1;
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+vertical-align: bottom;
+}
+
+.pic a{
+  display: block;
+}
+
+.imgArea{
+  position: relative;
+  width: 700px;
+  height: auto;
+  overflow: hidden;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pic .location{
+  position: absolute;
+  width: 700px;
+  height: 233.375px;
+  line-height: 233.375px;
+  top: 0;
+  left: 0;
+  font-family: 'GeosansLight';
+  font-size: 23px;
+  /* padding-bottom: 1em; */
+  opacity: 0;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  text-align: center;
+  vertical-align: bottom;
+}
+.pic:hover img {
+  opacity: .3;
+}
+
+.location:hover{
+  opacity: 1;
+}
+
+.content_ig{
+  font-family: 'GeosansLight';
+  font-size: 33px;
+  margin-top: 5em;
+  margin-bottom: 1em;
+}
+
+.content_me{
+  font-family: 'GeosansLight';
+  font-size: 20px;
+  padding-top: 3em;
+  padding-bottom: 1em;
+
+}
+
+.content{
+  font-family: 'GeosansLight';
+  font-size: 30px;
+}
+.content a{
+  text-decoration: none;
+}
+
+.content_ig.delighter {
+  transition: all 1.0s ease-out;
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+
+.content_ig.delighter.started {
+  transform: none;
+  opacity: 1;
+}
+
+
+.content.delighter {
+  transition: all 1.0s ease-out;
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+
+.content.delighter.started {
+  transform: none;
+  opacity: 1;
+}
+
+.content_me.delighter {
+  transition: all 1.0s ease-out;
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+
+.content_me.delighter.started {
+  transform: none;
+  opacity: 1;
+}

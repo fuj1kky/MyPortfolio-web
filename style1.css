@@ -1,0 +1,199 @@
+body {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #0d1936;
+}
+
+@font-face {
+  font-family: 'Codec-Cold-Regular-trial';
+  src: url('./font/Codec-Cold-Regular-trial.ttf') format('truetype');
+}
+
+.progpage{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 30px;
+  color: white;
+  line-height: 120%;
+}
+
+.octicon{
+  opacity: 0;
+  position: absolute;
+  top: 110%;
+  left: 45%;
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+  height: 2.7em;
+  color: white;
+  animation: fadeIn 3s ease 26s normal forwards;
+}
+
+.Qi{
+  opacity: 0;
+  position: absolute;
+  top: 116%;
+  left: 26%;
+  font-family: 'Codec-Cold-Regular-trial';
+  display: block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+  font-size: 105px;
+  color: white;
+  animation: fadeIn 3s ease 26s normal forwards;
+}
+
+.hatena{
+  opacity: 0;
+  position: absolute;
+  top: 105%;
+  left: 60.5%;
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+  height: 4.3em;
+  color: white;
+  animation: fadeIn 3s ease 26s normal forwards;
+}
+
+a{
+  text-decoration: none;
+  white-space: pre;
+}
+
+.link{
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  white-space: pre;
+}
+
+
+.s1{
+    width: 0ch;
+    --finishwidth: 41ch;
+    overflow: hidden;
+    white-space: nowrap;
+  	border-right: .03em solid;
+    border-right-color: transparent;
+  	animation: typing 4s steps(41) forwards,
+               cursor 1s steps(2) 4 backwards;
+}
+
+.s2{
+    width: 0ch;
+    --finishwidth: 44ch;
+    overflow: hidden;
+    white-space: nowrap;
+  	border-right: .03em solid;
+    border-right-color: transparent;
+  	animation: typing 4s steps(44) 4.02s forwards,
+               cursor 1s steps(2) 4.02s 4 backwards;
+}
+
+.s3{
+    width: 0ch;
+    --finishwidth: 13ch;
+    overflow: hidden;
+    white-space: nowrap;
+  	border-right: .03em solid;
+    border-right-color: transparent;
+  	animation: typing 1.5s steps(13) 8.04s forwards,
+               cursor 1s steps(2) 8.04s 1.5 backwards;
+}
+
+.li1{
+    width: 0ch;
+    --finishwidth: 18ch;
+    overflow: hidden;
+    white-space: nowrap;
+  	border-right: .03em solid;
+    border-right-color: transparent;
+  	animation: typing 1.7s steps(18) 9.56s forwards,
+               cursor 1s steps(2) 9.56s 1.75 backwards;
+}
+
+.li2{
+    width: 0ch;
+    --finishwidth: 13ch;
+    overflow: hidden;
+    white-space: nowrap;
+  	border-right: .03em solid;
+    border-right-color: transparent;
+  	animation: typing 1.1s steps(13) 11.28s forwards,
+               cursor 1s steps(2) 11.28s 1.1 backwards;
+}
+
+.li3{
+    width: 0ch;
+    --finishwidth: 43ch;
+    overflow: hidden;
+    white-space: nowrap;
+  	border-right: .03em solid;
+    border-right-color: transparent;
+  	animation: typing 3s steps(43) 12.4s forwards,
+               cursor 1s steps(2) 12.4s 3 backwards;
+}
+
+.li4{
+    width: 0ch;
+    --finishwidth: 9ch;
+    overflow: hidden;
+    white-space: nowrap;
+  	border-right: .03em solid;
+    border-right-color: transparent;
+  	animation: typing 0.9s steps(9) 15.42s forwards,
+               cursor 1s steps(2) 15.42s 0.9 backwards;
+}
+
+.s4{
+    width: 0ch;
+    --finishwidth: 11ch;
+    overflow: hidden;
+    white-space: nowrap;
+  	border-right: .03em solid;
+    border-right-color: transparent;
+  	animation: typing 0.95s steps(11) 16.34s forwards,
+               cursor 1s steps(2) 16.34s backwards;
+}
+
+.li5{
+    width: 0ch;
+    --finishwidth: 56ch;
+    overflow: hidden;
+    white-space: nowrap;
+  	border-right: .03em solid;
+    border-right-color: transparent;
+  	animation: typing 4.2s steps(56) 17.3s forwards,
+               cursor 1s steps(2) 17.3s 4.2 backwards;
+}
+
+.li6{
+    width: 0ch;
+    --finishwidth: 55ch;
+    overflow: hidden;
+    white-space: nowrap;
+  	border-right: .03em solid;
+    border-right-color: transparent;
+  	animation: typing 4.2s steps(55) 21.52s forwards,
+               cursor 1s steps(2) 21.52s infinite;
+}
+
+@keyframes typing {
+	to { width: var(--finishwidth); }
+}
+
+@keyframes cursor {
+	50% { border-right-color: white; }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0;  }
+  100%{ opacity: 1; }
+}

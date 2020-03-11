@@ -1,0 +1,183 @@
+body {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #0d1936;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 35px;
+  line-height: 40px;
+  color: #ecf0f1;
+  height: 290px;
+  overflow: hidden;
+}
+
+.select1{
+  position: relative;
+  top: 20%;
+  left: 14%;
+  color: white;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 20px;
+  width: 0ch;
+  overflow: hidden;
+  white-space: nowrap;
+	border-right: .03em solid;
+  border-right-color: transparent;
+	animation: typing1 2.1s steps(11) forwards,
+             cursor 1s steps(2) 2.25 backwards;
+}
+
+.select2{
+  position: relative;
+  top: 20%;
+  left: 14%;
+  color: white;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 20px;
+  width: 0ch;
+  overflow: hidden;
+  white-space: nowrap;
+	border-right: .03em solid;
+  border-right-color: transparent;
+	animation: typing2 1.8s steps(10) 2.11s forwards,
+             cursor 1s steps(2) 2.11s infinite;
+}
+.visible {
+  font-weight: 600;
+  overflow: hidden;
+  height: 40px;
+  padding: 0 50px;
+}
+.visible:before {
+  content: '[';
+  left: 0;
+  line-height: 40px;
+}
+.visible:after {
+  content: ']';
+  position: absolute;
+  right: 0;
+  line-height: 40px;
+}
+.visible:after, .visible:before {
+  position: absolute;
+  top: 0;
+  color: #ff8200;
+  font-size: 42px;
+  -webkit-animation: 2s linear 0s normal none infinite opacity;
+          animation: 2s linear 0s normal none infinite opacity;
+}
+
+ul {
+  margin-top: 0;
+  padding-left: 5px;
+  text-align: left;
+  list-style: none;
+  -webkit-animation: 12s linear 0s normal none infinite change;
+          animation: 12s linear 0s normal none infinite change;
+}
+
+ul li {
+  font-family: 'Quantico', sans-serif;
+  line-height: 40px;
+  margin: 0;
+}
+
+@-webkit-keyframes opacity {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes change {
+  0%, 12%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  17%,29% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  34%,46% {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  51%,63% {
+    -webkit-transform: translateY(-75%);
+            transform: translateY(-75%);
+  }
+  68%,80% {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  85%,97% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+}
+@keyframes change {
+  0%, 12%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  17%,29% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  34%,46% {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  51%,63% {
+    -webkit-transform: translateY(-75%);
+            transform: translateY(-75%);
+  }
+  68%,80% {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  85%,97% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+}
+@-webkit-keyframes typing1{
+  to { width: 22ch; }
+}
+
+@keyframes typing1 {
+	to { width: 22ch; }
+}
+
+@-webkit-keyframes typing2{
+  to { width: 20ch; }
+}
+
+@keyframes typing2 {
+	to { width: 20ch; }
+}
+
+@-webkit-keyframes cursor {
+	50% { border-right-color: white; }
+}
+@keyframes cursor {
+	50% { border-right-color: white; }
+}
