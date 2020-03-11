@@ -19,6 +19,7 @@ body {
 }
 
 .select1{
+  opacity: 1;
   position: relative;
   top: 20%;
   left: 14%;
@@ -26,15 +27,16 @@ body {
   font-family: 'Share Tech Mono', monospace;
   font-size: 20px;
   width: 0ch;
-  overflow: hidden;
+  /* overflow: hidden; */
   white-space: nowrap;
 	border-right: .03em solid;
   border-right-color: transparent;
-	animation: typing1 2.1s steps(11) forwards,
-             cursor 1s steps(2) 2.25 backwards;
+	/* animation: typing1 2.1s steps(11) forwards,
+             cursor 1s steps(2) 2.25 backwards; */
 }
 
 .select2{
+  opacity: 1;
   position: relative;
   top: 20%;
   left: 14%;
@@ -42,12 +44,12 @@ body {
   font-family: 'Share Tech Mono', monospace;
   font-size: 20px;
   width: 0ch;
-  overflow: hidden;
+  /* overflow: hidden; */
   white-space: nowrap;
 	border-right: .03em solid;
   border-right-color: transparent;
-	animation: typing2 1.8s steps(10) 2.11s forwards,
-             cursor 1s steps(2) 2.11s infinite;
+	/* animation: typing2 1.8s steps(10) 2.11s forwards,
+             cursor 1s steps(2) 2.11s infinite; */
 }
 .visible {
   font-weight: 600;
