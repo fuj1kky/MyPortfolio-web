@@ -74,6 +74,17 @@ a{
   white-space: pre;
 }
 
+.back{
+  position: relative;
+  opacity: 0;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 25px;
+  color: white;
+  top: 78%;
+  animation: fadeIn 3s ease 26s normal forwards;
+  text-align: center;
+  vertical-align: text-bottom;
+}
 
 .s1{
     width: 0ch;
