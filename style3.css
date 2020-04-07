@@ -14,6 +14,11 @@
   src: url('font/Raleway Thin.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'chogokubosogothic';
+  src: url('font/chogokubosogothic.ttf') format('truetype');
+}
+
 body {
     animation: fadeIn 2s ease 0s 1 normal;
     -webkit-animation: fadeIn 2s ease 0s 1 normal;
@@ -81,14 +86,14 @@ vertical-align: bottom;
 }
 
 .content_ig{
-  font-family: 'Raleway-thin';
+  font-family: 'chogokubosogothic';
   font-size: 33px;
   margin-top: 5em;
   margin-bottom: 1em;
 }
 
 .content_me{
-  font-family: 'Raleway-thin';
+  font-family: 'chogokubosogothic';
   font-size: 20px;
   padding-top: 3em;
   padding-bottom: 2em;
@@ -96,12 +101,12 @@ vertical-align: bottom;
 }
 
 .content{
-  font-family: 'Raleway-thin';
+  font-family: 'chogokubosogothic';
   font-size: 30px;
 }
 
 .content_back{
-  font-family: 'Raleway-thin';
+  font-family: 'chogokubosogothic';
   font-size:  35px;
   margin-bottom: 2em;
   text-align: center;
