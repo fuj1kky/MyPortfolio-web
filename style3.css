@@ -37,6 +37,27 @@ body {
 a{
   color: black;
 }
+
+h2{
+  font-size: 30px;
+}
+
+input{
+  font-size: 80%;
+}
+
+button{
+  font-size: 60%
+}
+
+.Qu1{
+  padding: 30px 30px;
+}
+
+.Qu2{
+  padding: 30px 30px;
+}
+
 .pic img{
 width: 700px;
 height: auto;
@@ -106,6 +127,13 @@ vertical-align: bottom;
 }
 
 .content_back{
+  font-family: 'chogokubosogothic';
+  font-size:  35px;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.content_qu{
   font-family: 'chogokubosogothic';
   font-size:  35px;
   margin-bottom: 2em;
